@@ -1,0 +1,256 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: sans-serif;
+    line-height: 23px;
+}
+
+.container {
+    width: 1000px;
+    margin: 0 auto;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid white;
+}
+
+.img {
+    border-radius: 50%;
+    margin: 20px;
+    width: 150px;
+    flex: 3
+}
+
+header .det h2 {
+    font-weight: bolder;
+    font-size: xx-large;
+}
+
+.orange {
+    color: orange;
+}
+
+.left {
+    flex: 6;
+    border-left: 1px solid white;
+    padding-left: 20px;
+}
+
+.det {
+    flex: 3;
+}
+
+.contact {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid white;
+}
+
+.contact .col {
+    margin-right: 30px;
+}
+
+.contact ul {
+    list-style-type: none;
+    line-height: 35px;
+    margin-left: -33px;
+}
+.contact .first{
+    text-align: right;
+}
+
+.about {
+    padding-top: 20px;
+}
+
+.about h1 {
+    margin: 0;
+}
+
+nav {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+nav .navi {
+    margin-right: 40px;
+}
+
+nav .navi a {
+    text-decoration: none;
+    color: white;
+}
+
+nav i {
+    margin-right: 2px;
+}
+
+main {
+    background: white;
+    display: flex;
+    color: black;
+
+}
+h2, h3{
+    text-transform: uppercase;
+    font-family: 'Sofia Sans Extra Condensed', sans-serif;
+}
+
+.experience {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    min-width: 65%;
+    margin-left: 30px;
+}
+
+.text {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.text .header {
+    text-align: right;
+    min-width: 25%;
+    margin-right: 20px;
+}
+
+.text .right {
+    padding-right: 40px;
+    margin-left: 30px;
+}
+
+.text .header h3, p {
+    margin: 0;
+}
+
+main .text .header h3 {
+    color: #188fc1;
+}
+
+.text .right h4 {
+    margin: 0;
+}
+
+main .skils {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+}
+.box {
+    padding: 40px 30px;
+    padding-bottom: 0;
+    flex-grow: 1;
+}
+.box h2 {
+    margin-top: 0;
+}
+
+.box ul {
+    margin-top: 0;
+    list-style: none;
+    margin-left: -30px;
+    line-height: 30px;
+    text-align: right;
+}
+
+main .skils .blue {
+    background: rgb(121, 202, 230);
+}
+
+main .skils .yellow {
+    background: rgb(242, 227, 24);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+progress {
+    appearance: none;
+    border-radius: 15px;
+    border: 2px solid black;
+    background-color: transparent;
+}
+progress::-webkit-progress-bar {
+    background-color: transparent;
+}
+progress::-webkit-progress-value {
+    background: black;
+}
+.education {
+    background: gainsboro;
+    padding: 30px;
+    color: black;
+    padding-top: 30px;
+    min-width: 65%;
+    padding-left: 30px;
+}
+
+.education h2 {
+    margin-top: 0;
+}
+
+.education .text .header h3 {
+    color: #188fc1;
+}
+
+.education .text {
+    display: flex;
+    justify-content: space-between;
+}
+.education .text .header{
+    min-width: 18%;
+    margin-right: 20px;
+}
+footer{
+    background: white;
+    color: black;
+    padding-left: 30px;
+    display: flex;
+}
+footer .hobbies{
+    padding-top: 30px;
+    min-width: 65%;
+}
+footer .hobbies .icons{
+    padding-right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 20px;
+    
+}
+footer .right{
+    flex-grow: 2;
+}
+footer h2 {
+    margin-top: 0;
+}
+
+footer .box {
+    padding: 40px 30px;
+    padding-bottom: 0;    
+}
+.gray{
+    background: rgb(235, 229, 229);
+}
+footer figure{
+    padding: 0;
+    margin: 15px;
+    
+}
